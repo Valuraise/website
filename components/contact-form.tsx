@@ -1,11 +1,13 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useState, useEffect } from "react";
 import { useLocale, useTranslations } from "next-intl";
+import { useSearchParams } from "next/navigation";
 import { Loader2, CheckCircle, AlertCircle } from "lucide-react";
 import { submitContactForm } from "@/app/[locale]/contact/actions";
 
 export default function ContactForm() {
+  const searchParams = useSearchParams();
   const [isLoading, setIsLoading] = useState(false);
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
@@ -13,11 +15,19 @@ export default function ContactForm() {
     name: "",
     email: "",
     company: "",
-    service: "ai",
+    intent: "general",
     message: "",
   });
   const locale = useLocale();
   const t = useTranslations();
+
+  // Pre-populate intent from URL parameter
+  useEffect(() => {
+    const intentParam = searchParams.get("intent");
+    if (intentParam && ["audit", "strategy", "general"].includes(intentParam)) {
+      setFormData((prev) => ({ ...prev, intent: intentParam }));
+    }
+  }, [searchParams]);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -34,7 +44,7 @@ export default function ContactForm() {
           name: "",
           email: "",
           company: "",
-          service: "ai",
+          intent: "general",
           message: "",
         });
         // Reset success message after 5 seconds
@@ -102,6 +112,25 @@ export default function ContactForm() {
           className="w-full px-4 py-3 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-accent/50 transition-all"
           placeholder={t("contact.form.companyPlaceholder")}
         />
+      </div>
+
+      {/* Reason for Contact */}
+      <div>
+        <label htmlFor="intent" className="block text-sm font-medium text-accent mb-2">
+          {t("contact.form.intentLabel")}
+        </label>
+        <select
+          id="intent"
+          name="intent"
+          value={formData.intent}
+          onChange={(e) => setFormData({ ...formData, intent: e.target.value })}
+          required
+          className="w-full px-4 py-3 rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-accent/50 transition-all bg-white"
+        >
+          <option value="audit">{t("contact.form.intentOptions.audit")}</option>
+          <option value="strategy">{t("contact.form.intentOptions.strategy")}</option>
+          <option value="general">{t("contact.form.intentOptions.general")}</option>
+        </select>
       </div>
 
       {/* Message */}

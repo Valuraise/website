@@ -1,138 +1,144 @@
 {
   "navigation": {
     "home": "Home",
-    "blog": "Blog",
+    "blog": "Insights",
     "contact": "Contact",
-    "getStarted": "See how"
+    "getStarted": "Book Readiness Audit"
   },
   "hero": {
-    "title": "Transform Your Business with",
-    "titleAccent": "AI & Youe Data",
-    "description": "Expert consulting for data engineering, machine learning, and cloud infrastructure. We help enterprises unlock the power of their data.",
-    "getStarted": "Get Started"
+    "title": "Turn Dormant Data Into",
+    "titleAccent": "Production Intelligence",
+    "description": "We inject high-velocity product squads to build custom intelligence engines grounded in your unique context. From strategy to production in weeks, not months.",
+    "getStarted": "Explore the Framework"
   },
   "methodology": {
-    "title": "From Strategy to Scale in Weeks",
-    "description": "We don't sell open-ended consulting. We deploy a venture-building protocol designed to take you from a raw idea to a production-grade AI asset. Fast, secure, and sovereign.",
+    "title": "Strategy to Production at Speed",
+    "description": "We deploy a venture-building protocol designed to prototype immediately and deliver a sovereign asset in weeks. No vendor lock-in. No design-by-committee.",
     "keyDeliverables": "Key Deliverables",
     "phases": {
       "01": {
-        "title": "Actionnable Audit",
-        "subtitle": "De-Risking the Innovation",
-        "description": "Before we write a single line of code, we validate the ecosystem. We assess your data readiness, security governance, and cloud foundations."
+        "title": "Risk-Intelligent Audit",
+        "subtitle": "Phase 1: De-Risk & Validate",
+        "description": "We validate the ecosystem before writing code. We assess data readiness, security governance, and define a clear ROI. Includes a transparent exit clause if feasibility isn't met."
       },
       "02": {
-        "title": "The MVP Sprint",
-        "subtitle": "The Startup Engine",
-        "description": "We activate startup mode with rapid iterations, weekly demos, and a focus on business value. Building a functional, secure MVP on your tenant."
+        "title": "The Velocity Sprint",
+        "subtitle": "Phase 2: Bias Toward Action",
+        "description": "We activate 'Startup Mode'. No bureaucracy, just rapid prototyping and frequent demos. We build a functional, secure MVP grounded in your institutional knowledge."
       },
       "03": {
-        "title": "Industrialization",
-        "subtitle": "From Lab to Factory",
-        "description": "A PoC is not a product. We harden the system for scale: MLOps pipelines, automated CI/CD, observability, and knowledge transfer."
+        "title": "Transfer & Independence",
+        "subtitle": "Phase 3: Ownership",
+        "description": "We don't build dependencies; we build assets. You own 100% of the code. We harden the system for scale and train your internal teams to evolve it independently."
       }
     },
     "deliverables": {
       "01": [
         "Technical Feasibility Report",
-        "Security & Compliance Checklist",
-        "Solution Architecture Design"
+        "ROI & Business Case Definition",
+        "Security & Compliance Checklist"
       ],
       "02": [
-        "Production-ready MVP",
-        "Infrastructure-as-Code (Terraform)",
-        "Business Value Validation (ROI Report)"
+        "Validated Business Case",
+        "Production-Grade MVP",
+        "Scalability Blueprint"
       ],
       "03": [
-        "Full CI/CD Pipelines",
-        "MLOps Monitoring Setup",
-        "Team Training & Handover"
+        "Automated MLOps Pipelines",
+        "Operational Playbooks",
+        "Team Training & Enablement"
       ]
     }
   },
   "techStack": {
-    "title": "Enterprise AI Stack",
-    "subtitle": "Production Ready",
-    "description": "A layered architecture designed for production AI at enterprise scale. Each layer is independently scalable, replaceable, and optimized for specific responsibilities.",
+    "title": "End-to-End Value Chain",
+    "subtitle": "The Enterprise AI Stack",
+    "description": "We leverage your investments to architect a custom, layered stack that grounds intelligence in your data while ensuring total independence and scalability.",
     "items": {
-      "1": {
+      "4": {
         "layer": "Application",
-        "title": "User-Facing Intelligence",
-        "description": "Next.js frontend, FastAPI backend, and Arize AI observability create a seamless interface for enterprise-grade AI applications."
-      },
-      "2": {
-        "layer": "Context",
-        "title": "Memory & Grounding",
-        "description": "Semantic Kernel orchestration, Azure AI Search for vector retrieval, and Databricks Unity Catalog for governance ensure your AI stays grounded in organizational data."
+        "title": "The Experience Layer",
+        "description": "Seamless, consumer-grade interfaces that transform technical capability into operational ROI."
       },
       "3": {
-        "layer": "Intelligence",
-        "title": "Reasoning Engines",
-        "description": "Azure OpenAI GPT-4o, Mistral AI for sovereign models, and LiteLLM for model routing provide decoupled, swappable reasoning capabilities."
+        "layer": "Context",
+        "title": "Institutional Grounding",
+        "description": "Your data is your competitive moat. We architect a secure 'Corporate Memory' that anchors generic models in your proprietary knowledge, ensuring outputs are business-relevant, accurate, and strictly governed."
       },
-      "4": {
+      "2": {
+        "layer": "Intelligence",
+        "title": "Decoupled Reasoning",
+        "description": "A model-agnostic architecture designed for security, scalability, and operational efficiency. We select the optimal model for each use case—balancing complex reasoning with sovereignty and cost-efficiency—to maximize ROI and prevent vendor lock-in."
+      },
+      "1": {
         "layer": "Infrastructure",
-        "title": "Enterprise Foundation",
-        "description": "Azure Kubernetes Service, Terraform for infrastructure-as-code, and Azure Key Vault provide secure, scalable, sovereign infrastructure."
+        "title": "Sovereign Foundation",
+        "description": "We maximize the value of your existing cloud investments by building a robust, enterprise-grade foundation. We ensure your platform is secure, fully scalable, and engineered to support long-term business growth."
       }
     }
   },
   "cta": {
     "homeCTA": {
-      "headline": "Ready to Transform Your Business?",
-      "description": "Let's discuss how we can help you leverage data and AI to achieve your business goals.",
-      "primaryText": "Schedule a call",
+      "headline": "Stop Piloting. Start Producing.",
+      "description": "You have the data and the ambition. You lack the velocity. Let's discuss how our venture protocol can deliver your first production asset.",
+      "primaryText": "Schedule Strategy Call",
       "primaryHref": "/contact"
     }
   },
   "contact": {
     "page": {
-      "title": "Get in Touch",
-      "description": "Have a project in mind? Let's discuss how we can help transform your business with AI, data engineering, and cloud infrastructure solutions.",
-      "formTitle": "Send us a Message",
-      "formSubtitle": "Fill out the form below and we'll get back to you within 24 hours."
+      "title": "Speak to Architects, Not Sales",
+      "description": "Whether you need a full Readiness Audit, a strategic discussion, or just have a question, our architects are ready to listen.",
+      "formTitle": "Tell us about your context",
+      "formSubtitle": "Select your topic below to route your request to the right partner."
     },
     "form": {
       "nameLabel": "Full Name",
       "namePlaceholder": "John Doe",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "john@example.com",
+      "emailLabel": "Work Email",
+      "emailPlaceholder": "john@company.com",
       "companyLabel": "Company Name",
       "companyPlaceholder": "Your Company",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Tell us about your project and challenges...",
-      "submitButton": "Send Message",
+      "intentLabel": "How can we help?",
+      "intentOptions": {
+        "audit": "Request Readiness Audit (Phase 1)",
+        "strategy": "Discuss a Project (Strategy Call)",
+        "general": "Partnership / General Inquiry"
+      },
+      "messageLabel": "Tell us about your context",
+      "messagePlaceholder": "Share your data readiness challenges and business goals...",
+      "submitButton": "Request Audit",
       "sendingButton": "Sending...",
-      "privacyNote": "We respect your privacy. Your information is secure and will never be shared.",
-      "successMessage": "Message sent successfully!",
-      "successSubMessage": "We'll get back to you soon.",
+      "privacyNote": "Strict confidentiality. NDA available upon request.",
+      "successMessage": "Request received.",
+      "successSubMessage": "A partner will review your context and reply shortly.",
       "errorTitle": "Error",
       "validationErrors": {
-        "nameRequired": "Name must be at least 2 characters",
-        "emailInvalid": "Invalid email address",
+        "nameRequired": "Name is required",
+        "emailInvalid": "Please use a valid work email",
         "companyRequired": "Company name is required",
-        "messageMinLength": "Message must be at least 10 characters",
-        "serviceRequired": "Please select a service"
+        "messageMinLength": "Please provide some context (min 10 chars)",
+        "intentRequired": "Please select how we can help"
       }
     }
   },
   "blog": {
     "page": {
-      "title": "Our Blog",
-      "description": "Insights, tips, and best practices on AI, data engineering, cloud infrastructure, and digital transformation.",
-      "noPosts": "No blog posts found."
+      "title": "Field Notes",
+      "description": "Insights on Venture Building, MLOps, and Enterprise AI Architecture.",
+      "noPosts": "Loading insights..."
     },
     "card": {
       "readingTime": "min read"
     }
   },
   "footer": {
-    "tagline": "Transforming businesses through data and AI expertise.",
-    "resources": "Resources",
-    "social": "Social",
-    "blog": "Blog",
-    "linkedin": "Linkedin",
-    "github": "Github",
+    "tagline": "The Venture Builder for Enterprise AI.",
+    "resources": "Expertise",
+    "social": "Connect",
+    "blog": "Field Notes",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
     "copyright": "© {year} Valuraise. All rights reserved."
   }
 }

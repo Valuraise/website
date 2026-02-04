@@ -52,7 +52,7 @@ export default function Home() {
         description={t("cta.homeCTA.description")}
         primaryCTA={{
           text: t("cta.homeCTA.primaryText"),
-          href: `/${t("cta.homeCTA.primaryHref")}`,
+          href: `/${t("cta.homeCTA.primaryHref")}?intent=strategy`,
         }}
       />
     </>

@@ -7,8 +7,8 @@ export type ContactFormData = {
   name: string;
   email: string;
   company: string;
+  intent: string;
   message: string;
-  service?: string;
 };
 
 export async function submitContactForm(
@@ -23,14 +23,12 @@ export async function submitContactForm(
       name: z.string().min(2, t("contact.form.validationErrors.nameRequired")),
       email: z.string().email(t("contact.form.validationErrors.emailInvalid")),
       company: z.string().min(2, t("contact.form.validationErrors.companyRequired")),
+      intent: z.enum(["audit", "strategy", "general"], {
+        errorMap: () => ({
+          message: t("contact.form.validationErrors.intentRequired"),
+        }),
+      }),
       message: z.string().min(10, t("contact.form.validationErrors.messageMinLength")),
-      service: z
-        .enum(["ai", "data", "cloud", "development", "other"], {
-          errorMap: () => ({
-            message: t("contact.form.validationErrors.serviceRequired"),
-          }),
-        })
-        .optional(),
     });
 
     // Validate the form data
