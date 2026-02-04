@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer } from "@/lib/animations";
@@ -9,6 +8,13 @@ import AnimatedGrid from "@/components/animated-grid";
 export default function Hero() {
   const t = useTranslations();
   useLocale(); // Get current locale for context
+
+  const handleScrollToMethodology = () => {
+    const element = document.getElementById("methodology");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
@@ -41,12 +47,12 @@ export default function Hero() {
           variants={fadeInUp}
           custom={2}
         >
-          <Link
-            href={`#methodology`}
+          <button
+            onClick={handleScrollToMethodology}
             className="px-8 py-4 bg-accent text-white rounded-lg font-semibold hover:bg-accent/90 transition-colors"
           >
             {t("hero.getStarted")}
-          </Link>
+          </button>
         </motion.div>
 
       </motion.div>

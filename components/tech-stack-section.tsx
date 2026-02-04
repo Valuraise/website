@@ -71,24 +71,39 @@ export default function TechStackSection() {
                 <div className="absolute inset-0 border border-border rounded-lg transform translate-y-0.5 translate-x-0.5 opacity-50 group-hover:opacity-30 transition-opacity" />
 
                 {/* Card */}
-                <div className={`relative p-6 md:p-8 border border-border rounded-lg backdrop-blur-sm hover:shadow-lg transition-all duration-300 group-hover:-translate-y-1 group-hover:-translate-x-1 ${item.highlighted ? "bg-red/5" : "bg-white"}`}>
+                <div className={`relative p-6 md:p-8 border rounded-lg backdrop-blur-sm hover:shadow-lg transition-all duration-300 group-hover:-translate-y-1 group-hover:-translate-x-1 ${item.highlighted
+                  ? "bg-secondary/10 border-secondary/30"
+                  : "bg-white border-border"
+                  }`}>
                   <div className="flex items-start gap-3 md:gap-4 mb-4">
                     <div className="flex-shrink-0 mt-1">
-                      <div className="w-6 h-6 rounded border border-accent/30 flex items-center justify-center text-xs font-semibold text-accent">
+                      <div className={`w-6 h-6 rounded flex items-center justify-center text-xs font-semibold ${item.highlighted
+                        ? "border-secondary/50 text-secondary bg-secondary/5"
+                        : "border-accent/30 bg-accent/5 text-accent"
+                        }`}>
                         {item.id}
                       </div>
                     </div>
                     <div className="flex-grow">
-                      <p className="text-xs font-semibold text-accent/70 uppercase tracking-widest mb-1">
+                      <p className={`text-xs font-semibold uppercase tracking-widest mb-1 ${item.highlighted
+                        ? "text-secondary"
+                        : "text-accent/70"
+                        }`}>
                         {item.layer}
                       </p>
-                      <h3 className="text-xl md:text-2xl font-bold text-accent">
+                      <h3 className={`text-xl md:text-2xl font-bold ${item.highlighted
+                        ? "text-secondary"
+                        : "text-accent"
+                        }`}>
                         {item.title}
                       </h3>
                     </div>
                   </div>
 
-                  <p className="text-sm md:text-base text-foreground/70 leading-relaxed ml-9">
+                  <p className={`text-sm md:text-base leading-relaxed ml-9 ${item.highlighted
+                    ? "text-foreground/80"
+                    : "text-foreground/70"
+                    }`}>
                     {item.description}
                   </p>
 

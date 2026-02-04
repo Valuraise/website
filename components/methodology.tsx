@@ -80,7 +80,7 @@ export default function MethodologySection() {
                   <h3 className="text-2xl font-bold text-accent mt-3">
                     {phase.title}
                   </h3>
-                  <p className="text-sm font-semibold text-foreground/60 mb-4">
+                  <p className="text-sm font-semibold text-foreground/80 mb-4">
                     {phase.subtitle}
                   </p>
                   <p className="text-foreground/70 mb-6 leading-relaxed">

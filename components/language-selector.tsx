@@ -23,6 +23,17 @@ export default function LanguageSelector() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  useEffect(() => {
+    // Display stored debug logs after page reload
+    const debugLogs = sessionStorage.getItem("langSelectorDebug");
+    if (debugLogs) {
+      console.log("=== Language Selector Debug Logs ===");
+      const logs = JSON.parse(debugLogs);
+      logs.forEach((log: string) => console.log(log));
+      sessionStorage.removeItem("langSelectorDebug");
+    }
+  }, []);
+
   const handleLanguageChange = (newLocale: Locale) => {
     setIsOpen(false);
 
@@ -31,10 +42,12 @@ export default function LanguageSelector() {
       return;
     }
 
-    // Debug logging
-    console.log("Current locale:", locale);
-    console.log("Current pathname:", pathname);
-    console.log("New locale:", newLocale);
+    // Store debug logs in localStorage before navigation
+    const logs = [
+      `Current locale: ${locale}`,
+      `Current pathname: ${pathname}`,
+      `New locale: ${newLocale}`,
+    ];
 
     // Remove current locale prefix from pathname
     let basePath = pathname;
@@ -44,9 +57,13 @@ export default function LanguageSelector() {
       // Current locale has a prefix, remove it
       if (pathname === `/${locale}`) {
         basePath = "/";
+        logs.push("Matched exact locale prefix");
       } else if (pathname.startsWith(`/${locale}/`)) {
         basePath = pathname.slice(`/${locale}`.length);
+        logs.push("Removed locale prefix from path");
       }
+    } else {
+      logs.push("No locale prefix to remove");
     }
 
     // Construct new path with new locale prefix
@@ -59,10 +76,20 @@ export default function LanguageSelector() {
       newPath = `/${newLocale}${basePath}`;
     }
 
-    console.log("Base path:", basePath);
-    console.log("New path:", newPath);
+    logs.push(`Base path: ${basePath}`);
+    logs.push(`New path: ${newPath}`);
 
-    // Navigate to new path
+    // Store the user's language preference in a cookie to prevent auto-detection
+    // This cookie tells the middleware: "user explicitly chose this locale"
+    const expiryDate = new Date();
+    expiryDate.setFullYear(expiryDate.getFullYear() + 1);
+    document.cookie = `NEXT_LOCALE=${newLocale}; path=/; expires=${expiryDate.toUTCString()}`;
+    logs.push(`Set cookie: NEXT_LOCALE=${newLocale}`);
+
+    // Store logs and navigate
+    sessionStorage.setItem("langSelectorDebug", JSON.stringify(logs));
+    console.log(logs.join("\n"));
+
     window.location.href = newPath;
   };
 

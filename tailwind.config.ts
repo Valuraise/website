@@ -14,6 +14,7 @@ const config: Config = {
         muted: "hsl(0, 0%, 96%)",
         "muted-foreground": "hsl(0, 0%, 45%)",
         accent: "hsl(0, 0%, 4%)",
+        secondary: "hsl(40, 90%, 50%)",
       },
       fontFamily: {
         sans: ["var(--font-geist-sans)"],
