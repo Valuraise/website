@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { CheckCircle2, Zap, Settings } from "lucide-react";
 import { fadeInUp, staggerContainer } from "@/lib/animations";
 
-const phaseNumbers = ["01", "02", "03"] as const;
+const phaseNumbers = ["1", "2", "3"] as const;
 const icons = [CheckCircle2, Zap, Settings] as const;
 
 export default function MethodologySection() {
@@ -20,7 +20,6 @@ export default function MethodologySection() {
       subtitle: t(`methodology.phases.${num}.subtitle`),
       description: t(`methodology.phases.${num}.description`),
       deliverables: t.raw(`methodology.deliverables.${num}`) as string[],
-      featured: num === "02",
     };
   });
 
@@ -64,15 +63,14 @@ export default function MethodologySection() {
                 key={phase.number}
                 variants={fadeInUp}
                 custom={index}
-                className={`relative group ${phase.featured ? "md:scale-105" : ""
-                  }`}
+                className="relative group"
               >
                 {/* Card */}
                 <div
                   className="relative p-6 md:p-8 border border-border rounded-lg bg-white backdrop-blur-sm hover:shadow-lg transition-all duration-300"
                 >
                   {/* Phase Number Badge */}
-                  <div className="absolute -top-4 rounded-lg left-8 bg-accent text-accent bg-white border w-10 h-10 flex items-center justify-center font-bold text-sm">
+                  <div className="absolute -top-4 rounded-lg left-8 text-accent bg-white border w-10 h-10 flex items-center justify-center font-bold text-sm">
                     {phase.number}
                   </div>
 

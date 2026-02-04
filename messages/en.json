@@ -3,94 +3,94 @@
     "home": "Home",
     "blog": "Insights",
     "contact": "Contact",
-    "getStarted": "Book Readiness Audit"
+    "getStarted": "Book AI Readiness Audit"
   },
   "hero": {
-    "title": "Turn Dormant Data Into",
-    "titleAccent": "Production Intelligence",
-    "description": "We inject high-velocity product squads to build custom intelligence engines grounded in your unique context. From strategy to production in weeks, not months.",
-    "getStarted": "Explore the Framework"
+    "title": "Turn Your Data Into",
+    "titleAccent": "Competitive Advantage",
+    "description": "We work with your team to build production-ready solutions that leverage your data. From planning to launch in weeks, not months.",
+    "getStarted": "Explore Our Approach"
   },
   "methodology": {
-    "title": "Strategy to Production at Speed",
-    "description": "We deploy a venture-building protocol designed to prototype immediately and deliver a sovereign asset in weeks. No vendor lock-in. No design-by-committee.",
-    "keyDeliverables": "Key Deliverables",
+    "title": "From Planning to Production",
+    "description": "We follow a structured process to move fast without cutting corners. Clear outcomes. No vendor lock-in. No endless committees.",
+    "keyDeliverables": "Deliverables",
     "phases": {
-      "01": {
-        "title": "Risk-Intelligent Audit",
-        "subtitle": "Phase 1: De-Risk & Validate",
-        "description": "We validate the ecosystem before writing code. We assess data readiness, security governance, and define a clear ROI. Includes a transparent exit clause if feasibility isn't met."
+      "1": {
+        "title": "Assessment & Planning",
+        "subtitle": "Phase 1: Understand & Validate",
+        "description": "We assess your current setup, identify what's needed to succeed, and define the business impact. If it doesn't make sense, we'll tell you."
       },
-      "02": {
-        "title": "The Velocity Sprint",
+      "2": {
+        "title": "Build & Iterate",
         "subtitle": "Phase 2: Bias Toward Action",
-        "description": "We activate 'Startup Mode'. No bureaucracy, just rapid prototyping and frequent demos. We build a functional, secure MVP grounded in your institutional knowledge."
+        "description": "We build a working solution and get it in front of your team immediately. Frequent updates. Rapid feedback. No endless design phases."
       },
-      "03": {
-        "title": "Transfer & Independence",
-        "subtitle": "Phase 3: Ownership",
-        "description": "We don't build dependencies; we build assets. You own 100% of the code. We harden the system for scale and train your internal teams to evolve it independently."
+      "3": {
+        "title": "Scale & Handoff",
+        "subtitle": "Phase 3: You Take Over",
+        "description": "Your team owns the solution completely. We prepare your people to run and improve it. Long-term success depends on your independence."
       }
     },
     "deliverables": {
-      "01": [
-        "Technical Feasibility Report",
-        "ROI & Business Case Definition",
-        "Security & Compliance Checklist"
+      "1": [
+        "Current State Analysis",
+        "Business Case & Timeline",
+        "Risk & Security Review"
       ],
-      "02": [
+      "2": [
         "Validated Business Case",
-        "Production-Grade MVP",
-        "Scalability Blueprint"
+        "Working Solution",
+        "Scaling Strategy"
       ],
-      "03": [
-        "Automated MLOps Pipelines",
-        "Operational Playbooks",
-        "Team Training & Enablement"
+      "3": [
+        "Operations Guide",
+        "Runbooks & Procedures",
+        "Team Training"
       ]
     }
   },
   "techStack": {
     "title": "End-to-End Value Chain",
     "subtitle": "The Enterprise AI Stack",
-    "description": "We leverage your investments to architect a custom, layered stack that grounds intelligence in your data while ensuring total independence and scalability.",
+    "description": "We leverage your investments to architect a custom solution that grounds intelligence in your data while ensuring security and scalability.",
     "items": {
       "4": {
         "layer": "Application",
         "title": "The Experience Layer",
-        "description": "Seamless, consumer-grade interfaces that transform technical capability into operational ROI."
+        "description": "Clean, intuitive tools your team actually wants to use."
       },
       "3": {
-        "layer": "Context",
-        "title": "Institutional Grounding",
-        "description": "Your data is your competitive moat. We architect a secure 'Corporate Memory' that anchors generic models in your proprietary knowledge, ensuring outputs are business-relevant, accurate, and strictly governed."
+        "layer": "Model",
+        "title": "Reasoning",
+        "description": "A model-agnostic architecture designed for security, scalability, and operational efficiency."
       },
       "2": {
-        "layer": "Intelligence",
-        "title": "Decoupled Reasoning",
-        "description": "A model-agnostic architecture designed for security, scalability, and operational efficiency. We select the optimal model for each use case—balancing complex reasoning with sovereignty and cost-efficiency—to maximize ROI and prevent vendor lock-in."
+        "layer": "Context",
+        "title": "Institutional Grounding",
+        "description": "Your data is your competitive moat. We architect a secure 'Corporate Memory' that anchors generic models in your enterprise knowledge, ensuring the quality of the outputs."
       },
       "1": {
         "layer": "Infrastructure",
-        "title": "Sovereign Foundation",
-        "description": "We maximize the value of your existing cloud investments by building a robust, enterprise-grade foundation. We ensure your platform is secure, fully scalable, and engineered to support long-term business growth."
+        "title": "Cloud Platform",
+        "description": "We maximize the value of your existing cloud investments. We ensure your platform is secure, fully scalable, and engineered to support long-term business growth."
       }
     }
   },
   "cta": {
     "homeCTA": {
       "headline": "Stop Piloting. Start Producing.",
-      "description": "You have the data and the ambition. You lack the velocity. Let's discuss how our venture protocol can deliver your first production asset.",
-      "primaryText": "Schedule Strategy Call",
+      "description": "You have the data and the ambition. You need a partner who can execute. Let's talk about your timeline and what success looks like.",
+      "primaryText": "Schedule a Call",
       "primaryHref": "/contact"
     }
   },
   "contact": {
     "page": {
-      "title": "Speak to Architects, Not Sales",
-      "description": "Whether you need a full Readiness Audit, a strategic discussion, or just have a question, our architects are ready to listen.",
+      "title": "Talk to Engineers, Not Sales",
+      "description": "Whether you need a full Readiness Audit, a strategic discussion, or just have a question, our engineers are ready to listen.",
       "formTitle": "Tell us about your context",
-      "formSubtitle": "Select your topic below to route your request to the right partner."
+      "formSubtitle": "Help us route your request to the right expert."
     },
     "form": {
       "nameLabel": "Full Name",
@@ -125,7 +125,7 @@
   "blog": {
     "page": {
       "title": "Engineering & Strategy Insights",
-      "description": "Deep dives into the mechanics of Enterprise AI. We share blueprints and analysis on Data Strategy, Cloud Infrastructure, and the engineering reality behind the hype.",
+      "description": "Practical lessons on building production systems. Data strategy, cloud architecture, and the real challenges behind the headlines.",
       "noPosts": "Loading insights..."
     },
     "card": {
@@ -133,10 +133,10 @@
     }
   },
   "footer": {
-    "tagline": "The Venture Builder for Enterprise AI.",
+    "tagline": "Enterprise solutions for AI and Data.",
     "resources": "Expertise",
     "social": "Connect",
-    "blog": "Field Notes",
+    "blog": "Insights",
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "copyright": "© {year} Valuraise. All rights reserved."

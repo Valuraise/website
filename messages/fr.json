@@ -3,50 +3,50 @@
     "home": "Accueil",
     "blog": "Insights",
     "contact": "Contact",
-    "getStarted": "Réserver un Audit"
+    "getStarted": "Evaluer votre environnement IA"
   },
   "hero": {
-    "title": "Transformez vos Données Dormantes en",
-    "titleAccent": "Intelligence en Production",
-    "description": "Nous déployons des 'Squads Produits' à haute vélocité pour bâtir des moteurs d'intelligence sur mesure, ancrés dans votre contexte unique. De la stratégie à la production en quelques semaines, pas en mois.",
-    "getStarted": "Découvrir le Framework"
+    "title": "Transformez Vos Données en",
+    "titleAccent": "Avantage Concurrentiel",
+    "description": "Nous travaillons avec votre équipe pour construire des solutions qui exploitent vos données. De la planification au mise à l'échelle en quelques semaines",
+    "getStarted": "Découvrir Notre Approche"
   },
   "methodology": {
-    "title": "De la Stratégie à la Production, en Accéléré",
-    "description": "Nous appliquons un protocole de 'Venture Building' conçu pour prototyper immédiatement et livrer un actif souverain en quelques semaines. Zéro verrouillage vendeur. Zéro paralysie décisionnelle.",
-    "keyDeliverables": "Livrables Clés",
+    "title": "De la Planification à la Production",
+    "description": "Nous suivons un processus structuré pour avancer rapidement sans sacrifier la qualité. Résultats clairs.",
+    "keyDeliverables": "Livrables",
     "phases": {
-      "01": {
-        "title": "Audit & Dé-risquage",
-        "subtitle": "Phase 1 : Valider & Sécuriser",
-        "description": "Nous validons l'écosystème avant d'écrire une ligne de code. Nous évaluons la maturité Data, la gouvernance de sécurité et définissons un ROI clair. Inclut une clause de sortie transparente si la faisabilité n'est pas avérée."
+      "1": {
+        "title": "Évaluation & Planification",
+        "subtitle": "Phase 1 : Comprendre & Valider",
+        "description": "Nous évaluons votre environnement actuel, identifions ce qu'il faut faire pour réussir, et définissons l'impact métier. Si cela n'a pas de sens, nous vous le dirons."
       },
-      "02": {
-        "title": "Le Sprint Vélocité",
-        "subtitle": "Phase 2 : Priorité à l'Action",
-        "description": "Activation du 'Mode Startup'. Pas de bureaucratie, mais du prototypage rapide et des démos fréquentes. Nous construisons un MVP fonctionnel et sécurisé, basé sur votre savoir institutionnel."
+      "2": {
+        "title": "Construire & Itérer",
+        "subtitle": "Phase 2 : Exécuter Rapidement",
+        "description": "Nous construisons une solution fonctionnelle et la mettons en place chez vous immédiatement. Mises à jour régulières. Retours rapides."
       },
-      "03": {
-        "title": "Transfert & Indépendance",
-        "subtitle": "Phase 3 : Appropriation",
-        "description": "Nous ne créons pas de dépendances, nous créons des actifs. Vous possédez 100% du code. Nous robustifions le système pour l'échelle et formons vos équipes internes pour qu'elles prennent le relais."
+      "3": {
+        "title": "Transfert & Évolution",
+        "subtitle": "Phase 3 : Vous Prenez les Rênes",
+        "description": "Nous mettons en place les bonnes pratiques pour passer à l'échelle, nous préparons vos équipes à utiliser et améliorer la solution."
       }
     },
     "deliverables": {
-      "01": [
-        "Rapport de Faisabilité Technique",
-        "Définition du ROI & Business Case",
-        "Checklist Sécurité & Conformité"
+      "1": [
+        "Analyse de l'État Actuel",
+        "Business Case & Calendrier",
+        "Examen des Risques & Sécurité"
       ],
-      "02": [
-        "Business Case Validé",
-        "MVP de Qualité Production",
-        "Blueprint de Scalabilité"
+      "2": [
+        "Solution Fonctionnelle",
+        "Environnement de Production",
+        "Stratégie de Scaling"
       ],
-      "03": [
-        "Pipelines MLOps Automatisés",
-        "Playbooks Opérationnels",
-        "Formation & Autonomie des Équipes"
+      "3": [
+        "Guide Opérationnel",
+        "Procédures & Runbooks",
+        "Formation de l'Équipe"
       ]
     }
   },
@@ -57,75 +57,75 @@
     "items": {
       "4": {
         "layer": "Application",
-        "title": "La Couche Expérience",
-        "description": "Des interfaces fluides de qualité 'grand public' qui transforment la capacité technique en ROI opérationnel réel."
+        "title": "Expérience Utilisateur",
+        "description": "Des outils clairs et intuitifs que votre équipe aime utiliser."
       },
       "3": {
+        "layer": "Model",
+        "title": "Raisonnement",
+        "description": "Une architecture agnostique conçue pour la sécurité et l'efficacité. Nous sélectionnons le modèle optimal pour chaque usage pour maximiser le ROI."
+      },
+      "2": {
         "layer": "Contexte",
         "title": "Ancrage Institutionnel",
         "description": "Vos données sont votre avantage compétitif. Nous architecturons une 'Mémoire d'Entreprise' sécurisée qui ancre les modèles génériques dans votre savoir propriétaire, garantissant pertinence métier et gouvernance stricte."
       },
-      "2": {
-        "layer": "Intelligence",
-        "title": "Raisonnement Découplé",
-        "description": "Une architecture agnostique conçue pour la sécurité et l'efficacité. Nous sélectionnons le modèle optimal pour chaque usage—équilibrant raisonnement complexe et souveraineté—pour maximiser le ROI et éviter le verrouillage technologique."
-      },
       "1": {
         "layer": "Infrastructure",
-        "title": "Fondation Souveraine",
-        "description": "Nous maximisons la valeur de vos investissements Cloud actuels en bâtissant une fondation robuste de classe entreprise. Nous garantissons une plateforme sécurisée, scalable et conçue pour soutenir la croissance à long terme."
+        "title": "Plateforme Cloud",
+        "description": "Nous maximisons la valeur de vos investissements Cloud actuels en bâtissant une plateforme sécurisée et scalable."
       }
     }
   },
   "cta": {
     "homeCTA": {
       "headline": "Arrêtez les Pilotes. Passez en Production.",
-      "description": "Vous avez les données et l'ambition. Il vous manque la vélocité. Discutons de la manière dont notre protocole 'Venture' peut livrer votre premier actif de production.",
-      "primaryText": "Planifier un Appel Stratégique",
+      "description": "Vous avez les données et l'ambition. Vous avez besoin d'un partenaire qui peut l'exécuter. Parlons de vos cas d'usage.",
+      "primaryText": "Planifier un Appel",
       "primaryHref": "/contact"
     }
   },
   "contact": {
     "page": {
-      "title": "Parlez à des Architectes, pas des Vendeurs",
-      "description": "Que vous ayez besoin d'un Audit de Maturité, d'une discussion stratégique ou simplement d'une réponse, nos architectes sont à l'écoute.",
+      "title": "Parlez à des experts data et IA",
+      "description": "Dites-nous ce que vous voulez accomplir. Notre équipe est à l'écoute.",
       "formTitle": "Parlez-nous de votre contexte",
-      "formSubtitle": "Sélectionnez votre sujet ci-dessous pour router votre demande vers le bon associé."
+      "formSubtitle": "Cela nous aidera à vous mettre en relation avec le bon expert."
     },
     "form": {
-      "nameLabel": "Nom Complet",
+      "nameLabel": "Votre Nom",
       "namePlaceholder": "Jean Dupont",
       "emailLabel": "Email Professionnel",
       "emailPlaceholder": "jean@entreprise.com",
       "companyLabel": "Entreprise",
       "companyPlaceholder": "Votre Entreprise",
-      "intentLabel": "Comment pouvons-nous aider ?",
+      "intentLabel": "Quel est votre principal intérêt ?",
       "intentOptions": {
-        "audit": "Demander un Audit de Maturité (Phase 1)",
-        "strategy": "Discuter d'un Projet (Appel Stratégique)",
-        "general": "Partenariat / Question Générale"
+        "audit": "Évaluer notre situation actuelle (Audit)",
+        "strategy": "Planifier un projet spécifique",
+        "general": "Nous explorons nos options"
       },
-      "messageLabel": "Détails du contexte",
-      "messagePlaceholder": "Partagez vos défis actuels (Data, Cloud) et vos objectifs métier...",
-      "submitButton": "Envoyer la Demande",
+      "messageLabel": "Parlez-nous de votre situation",
+      "messagePlaceholder": "Qu'essayez-vous de construire ? Quel est votre calendrier ?",
+      "submitButton": "Envoyer",
       "sendingButton": "Envoi...",
-      "privacyNote": "Confidentialité stricte. NDA disponible sur demande.",
-      "successMessage": "Demande reçue.",
-      "successSubMessage": "Un associé analysera votre contexte et vous répondra sous peu.",
+      "privacyNote": "Nous respectons votre confidentialité. NDA disponible si nécessaire.",
+      "successMessage": "C'est noté.",
+      "successSubMessage": "Nous allons analyser cela et vous recontacter bientôt.",
       "errorTitle": "Erreur",
       "validationErrors": {
         "nameRequired": "Le nom est requis",
         "emailInvalid": "Email professionnel invalide",
         "companyRequired": "Le nom de l'entreprise est requis",
         "messageMinLength": "Merci de fournir un minimum de contexte (min 10 car.)",
-        "intentRequired": "Veuillez sélectionner un sujet"
+        "intentRequired": "Veuillez sélectionner votre principal intérêt"
       }
     }
   },
   "blog": {
     "page": {
-      "title": "Ingénierie & Stratégie",
-      "description": "Plongée au cœur de la mécanique IA en entreprise. Retours d'expérience concrets sur la Stratégie Data, l'Infrastructure Cloud et la réalité technique derrière la hype.",
+      "title": "Articles & Insights",
+      "description": "Leçons pratiques sur la construction de systèmes en production. Stratégie data, architecture cloud, et les défis technologiques.",
       "noPosts": "Chargement des articles..."
     },
     "card": {
@@ -133,10 +133,10 @@
     }
   },
   "footer": {
-    "tagline": "Le Venture Builder pour l'IA en Entreprise.",
-    "resources": "Expertise",
-    "social": "Réseaux",
-    "blog": "Notes de Terrain",
+    "tagline": "Solutions IA et Data en entreprise.",
+    "resources": "Services",
+    "social": "Suivez",
+    "blog": "Articles",
     "linkedin": "LinkedIn",
     "github": "GitHub",
     "copyright": "© {year} Valuraise. Tous droits réservés."

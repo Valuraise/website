@@ -12,7 +12,7 @@ export default function TechStackSection() {
     layer: t(`techStack.items.${id}.layer`),
     title: t(`techStack.items.${id}.title`),
     description: t(`techStack.items.${id}.description`),
-    highlighted: id == 3
+    highlighted: id == 2
   }));
 
   return (
@@ -77,9 +77,9 @@ export default function TechStackSection() {
                   }`}>
                   <div className="flex items-start gap-3 md:gap-4 mb-4">
                     <div className="flex-shrink-0 mt-1">
-                      <div className={`w-6 h-6 rounded flex items-center justify-center text-xs font-semibold ${item.highlighted
-                        ? "border-secondary/50 text-secondary bg-secondary/5"
-                        : "border-accent/30 bg-accent/5 text-accent"
+                      <div className={`w-6 h-6 rounded border flex items-center justify-center text-xs font-semibold ${item.highlighted
+                        ? "border-secondary text-secondary"
+                        : "border-accent/30 text-accent"
                         }`}>
                         {item.id}
                       </div>
