@@ -124,8 +124,8 @@
   },
   "blog": {
     "page": {
-      "title": "Notes de Terrain",
-      "description": "Retours d'expérience sur le Venture Building, le MLOps et l'Architecture IA d'Entreprise.",
+      "title": "Ingénierie & Stratégie",
+      "description": "Plongée au cœur de la mécanique IA en entreprise. Retours d'expérience concrets sur la Stratégie Data, l'Infrastructure Cloud et la réalité technique derrière la hype.",
       "noPosts": "Chargement des articles..."
     },
     "card": {

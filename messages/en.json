@@ -124,8 +124,8 @@
   },
   "blog": {
     "page": {
-      "title": "Field Notes",
-      "description": "Insights on Venture Building, MLOps, and Enterprise AI Architecture.",
+      "title": "Engineering & Strategy Insights",
+      "description": "Deep dives into the mechanics of Enterprise AI. We share blueprints and analysis on Data Strategy, Cloud Infrastructure, and the engineering reality behind the hype.",
       "noPosts": "Loading insights..."
     },
     "card": {

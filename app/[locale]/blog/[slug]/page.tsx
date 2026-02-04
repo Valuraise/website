@@ -135,8 +135,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <p className="text-foreground/70">
               {post.author}{" "}
               {locale === "fr"
-                ? "est un consultant senior chez Valuraise avec une expertise en IA, ingénierie des données et infrastructure cloud."
-                : "is a senior consultant at Valuraise with expertise in AI, data engineering, and cloud infrastructure."}
+                ? "est le fondateur de Valuraise. Expert en IA, Data Engineering et Infrastructure Cloud. Fondateur de Sifflet une solution d'observabilité des données, Il a évolué au cœur des environnements Fortune 500, transformant des écosystèmes de données complexes en actifs stratégiques, fiables et scalables. Il accompagne les entreprises de la Stratégie à la Production."
+                : "is founder @Valuraise. Expert in AI, Data Engineering, and Cloud Infrastructure. Founder of Sifflet a Data Observability platform, He spent his career deployed within Fortune 500 environments, turning chaotic data ecosystems into reliable, scalable strategic assets. He specializes in taking enterprises from Strategy to Production."}
             </p>
           </div>
 
