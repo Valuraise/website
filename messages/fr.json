@@ -1,0 +1,138 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "title": "Transformez Votre Entreprise avec",
+    "titleAccent": "l'IA et les Données",
+    "description": "Conseil expert en ingénierie des données, apprentissage automatique et infrastructure cloud. Nous aidons les entreprises à exploiter la puissance de leurs données.",
+    "getStarted": "Commencer"
+  },
+  "methodology": {
+    "title": "De la Stratégie à l'Échelle en Quelques Semaines",
+    "description": "Nous ne vendons pas du conseil sans fin. Nous déployons un protocole de construction de ventures conçu pour vous faire passer d'une idée brute à un actif IA de qualité production. Rapide, sécurisé et souverain.",
+    "keyDeliverables": "Livrables Clés",
+    "phases": {
+      "01": {
+        "title": "Le Blueprint et l'Audit",
+        "subtitle": "Réduire les Risques de l'Innovation",
+        "description": "Avant d'écrire une seule ligne de code, nous validons l'écosystème. Nous évaluons votre maturité données, votre gouvernance de sécurité et vos fondations cloud."
+      },
+      "02": {
+        "title": "Le Sprint MVP",
+        "subtitle": "Le Moteur de Démarrage",
+        "description": "Nous activons le mode startup avec des itérations rapides, des démos hebdomadaires et un focus sur la valeur métier. Construire un MVP fonctionnel et sécurisé sur votre tenant."
+      },
+      "03": {
+        "title": "Industrialisation",
+        "subtitle": "Du Laboratoire à l'Usine",
+        "description": "Un PoC n'est pas un produit. Nous durcissons le système pour l'échelle : pipelines MLOps, CI/CD automatisé, observabilité et transfert de compétences."
+      }
+    },
+    "deliverables": {
+      "01": [
+        "Rapport de Faisabilité Technique",
+        "Checklist Sécurité et Conformité",
+        "Design d'Architecture Solution"
+      ],
+      "02": [
+        "MVP Prêt pour la Production",
+        "Infrastructure-as-Code (Terraform)",
+        "Validation de Valeur Métier (Rapport ROI)"
+      ],
+      "03": [
+        "Pipelines CI/CD Complets",
+        "Mise en place Monitoring MLOps",
+        "Formation d'Équipe et Passation"
+      ]
+    }
+  },
+  "techStack": {
+    "title": "Stack IA Entreprise",
+    "subtitle": "Prêt pour la Production",
+    "description": "Une architecture en couches conçue pour l'IA de production à l'échelle entreprise. Chaque couche est indépendamment scalable, remplaçable et optimisée pour des responsabilités spécifiques.",
+    "items": {
+      "1": {
+        "layer": "Couche Application",
+        "title": "Intelligence Orientée Utilisateur",
+        "description": "Next.js frontend, FastAPI backend et observabilité Arize AI créent une interface transparente pour les applications IA de qualité entreprise."
+      },
+      "2": {
+        "layer": "Couche Contexte",
+        "title": "Mémoire Corporative et Ancrage",
+        "description": "L'orchestration Semantic Kernel, la recherche vectorielle Azure AI Search et Databricks Unity Catalog pour la gouvernance garantissent que votre IA reste ancrée aux données organisationnelles."
+      },
+      "3": {
+        "layer": "Couche Intelligence",
+        "title": "Moteurs de Raisonnement",
+        "description": "Azure OpenAI GPT-4o, Mistral AI pour les modèles souverains et LiteLLM pour le routage modèle offrent des capacités de raisonnement découplées et interchangeables."
+      },
+      "4": {
+        "layer": "Infrastructure",
+        "title": "Fondation Entreprise",
+        "description": "Azure Kubernetes Service, Terraform pour l'infrastructure-as-code et Azure Key Vault offrent une infrastructure sécurisée, scalable et souveraine."
+      }
+    }
+  },
+  "cta": {
+    "homeCTA": {
+      "headline": "Prêt à Transformer Votre Entreprise?",
+      "description": "Discutons de comment nous pouvons vous aider à exploiter les données et l'IA pour atteindre vos objectifs métier.",
+      "primaryText": "Planifier un appel",
+      "primaryHref": "/contact"
+    }
+  },
+  "contact": {
+    "page": {
+      "title": "Nous Contacter",
+      "description": "Vous avez un projet en tête? Discutons de comment nous pouvons vous aider à transformer votre entreprise avec l'IA, l'ingénierie des données et les solutions d'infrastructure cloud.",
+      "formTitle": "Envoyez-nous un Message",
+      "formSubtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les 24 heures."
+    },
+    "form": {
+      "nameLabel": "Nom Complet",
+      "namePlaceholder": "Jean Dupont",
+      "emailLabel": "Adresse Email",
+      "emailPlaceholder": "jean@example.com",
+      "companyLabel": "Nom de l'Entreprise",
+      "companyPlaceholder": "Votre Entreprise",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Parlez-nous de votre projet et de vos défis...",
+      "submitButton": "Envoyer le Message",
+      "sendingButton": "Envoi...",
+      "privacyNote": "Nous respectons votre vie privée. Vos informations sont sécurisées et ne seront jamais partagées.",
+      "successMessage": "Message envoyé avec succès!",
+      "successSubMessage": "Nous vous recontacterons bientôt.",
+      "errorTitle": "Erreur",
+      "validationErrors": {
+        "nameRequired": "Le nom doit contenir au moins 2 caractères",
+        "emailInvalid": "Adresse email invalide",
+        "companyRequired": "Le nom de l'entreprise est requis",
+        "messageMinLength": "Le message doit contenir au moins 10 caractères",
+        "serviceRequired": "Veuillez sélectionner un service"
+      }
+    }
+  },
+  "blog": {
+    "page": {
+      "title": "Notre Blog",
+      "description": "Conseils et bonnes pratiques sur l'IA, l'ingénierie des données, l'infrastructure cloud et la transformation numérique.",
+      "noPosts": "Aucun article trouvé."
+    },
+    "card": {
+      "readingTime": "min de lecture"
+    }
+  },
+  "footer": {
+    "tagline": "Transformer les entreprises par l'expertise en données et IA.",
+    "resources": "Ressources",
+    "social": "Réseaux Sociaux",
+    "blog": "Blog",
+    "linkedin": "Linkedin",
+    "github": "Github",
+    "copyright": "© {year} Valuraise. Tous droits réservés."
+  }
+}

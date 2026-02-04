@@ -1,0 +1,138 @@
+{
+  "navigation": {
+    "home": "Home",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Transform Your Business with",
+    "titleAccent": "AI & Data",
+    "description": "Expert consulting for data engineering, machine learning, and cloud infrastructure. We help enterprises unlock the power of their data.",
+    "getStarted": "Get Started"
+  },
+  "methodology": {
+    "title": "From Strategy to Scale in Weeks",
+    "description": "We don't sell open-ended consulting. We deploy a venture-building protocol designed to take you from a raw idea to a production-grade AI asset. Fast, secure, and sovereign.",
+    "keyDeliverables": "Key Deliverables",
+    "phases": {
+      "01": {
+        "title": "The Blueprint & Audit",
+        "subtitle": "De-Risking the Innovation",
+        "description": "Before we write a single line of code, we validate the ecosystem. We assess your data readiness, security governance, and cloud foundations."
+      },
+      "02": {
+        "title": "The MVP Sprint",
+        "subtitle": "The Startup Engine",
+        "description": "We activate startup mode with rapid iterations, weekly demos, and a focus on business value. Building a functional, secure MVP on your tenant."
+      },
+      "03": {
+        "title": "Industrialization",
+        "subtitle": "From Lab to Factory",
+        "description": "A PoC is not a product. We harden the system for scale: MLOps pipelines, automated CI/CD, observability, and knowledge transfer."
+      }
+    },
+    "deliverables": {
+      "01": [
+        "Technical Feasibility Report",
+        "Security & Compliance Checklist",
+        "Solution Architecture Design"
+      ],
+      "02": [
+        "Production-ready MVP",
+        "Infrastructure-as-Code (Terraform)",
+        "Business Value Validation (ROI Report)"
+      ],
+      "03": [
+        "Full CI/CD Pipelines",
+        "MLOps Monitoring Setup",
+        "Team Training & Handover"
+      ]
+    }
+  },
+  "techStack": {
+    "title": "Enterprise AI Stack",
+    "subtitle": "Production Ready",
+    "description": "A layered architecture designed for production AI at enterprise scale. Each layer is independently scalable, replaceable, and optimized for specific responsibilities.",
+    "items": {
+      "1": {
+        "layer": "Application Layer",
+        "title": "User-Facing Intelligence",
+        "description": "Next.js frontend, FastAPI backend, and Arize AI observability create a seamless interface for enterprise-grade AI applications."
+      },
+      "2": {
+        "layer": "Context Layer",
+        "title": "Corporate Memory & Grounding",
+        "description": "Semantic Kernel orchestration, Azure AI Search for vector retrieval, and Databricks Unity Catalog for governance ensure your AI stays grounded in organizational data."
+      },
+      "3": {
+        "layer": "Intelligence Layer",
+        "title": "Reasoning Engines",
+        "description": "Azure OpenAI GPT-4o, Mistral AI for sovereign models, and LiteLLM for model routing provide decoupled, swappable reasoning capabilities."
+      },
+      "4": {
+        "layer": "Infrastructure",
+        "title": "Enterprise Foundation",
+        "description": "Azure Kubernetes Service, Terraform for infrastructure-as-code, and Azure Key Vault provide secure, scalable, sovereign infrastructure."
+      }
+    }
+  },
+  "cta": {
+    "homeCTA": {
+      "headline": "Ready to Transform Your Business?",
+      "description": "Let's discuss how we can help you leverage data and AI to achieve your business goals.",
+      "primaryText": "Schedule a call",
+      "primaryHref": "/contact"
+    }
+  },
+  "contact": {
+    "page": {
+      "title": "Get in Touch",
+      "description": "Have a project in mind? Let's discuss how we can help transform your business with AI, data engineering, and cloud infrastructure solutions.",
+      "formTitle": "Send us a Message",
+      "formSubtitle": "Fill out the form below and we'll get back to you within 24 hours."
+    },
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "companyLabel": "Company Name",
+      "companyPlaceholder": "Your Company",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your project and challenges...",
+      "submitButton": "Send Message",
+      "sendingButton": "Sending...",
+      "privacyNote": "We respect your privacy. Your information is secure and will never be shared.",
+      "successMessage": "Message sent successfully!",
+      "successSubMessage": "We'll get back to you soon.",
+      "errorTitle": "Error",
+      "validationErrors": {
+        "nameRequired": "Name must be at least 2 characters",
+        "emailInvalid": "Invalid email address",
+        "companyRequired": "Company name is required",
+        "messageMinLength": "Message must be at least 10 characters",
+        "serviceRequired": "Please select a service"
+      }
+    }
+  },
+  "blog": {
+    "page": {
+      "title": "Our Blog",
+      "description": "Insights, tips, and best practices on AI, data engineering, cloud infrastructure, and digital transformation.",
+      "noPosts": "No blog posts found."
+    },
+    "card": {
+      "readingTime": "min read"
+    }
+  },
+  "footer": {
+    "tagline": "Transforming businesses through data and AI expertise.",
+    "resources": "Resources",
+    "social": "Social",
+    "blog": "Blog",
+    "linkedin": "Linkedin",
+    "github": "Github",
+    "copyright": "© {year} Valuraise. All rights reserved."
+  }
+}
