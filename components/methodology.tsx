@@ -25,7 +25,7 @@ export default function MethodologySection() {
   });
 
   return (
-    <section className="relative py-20 md:py-32 bg-white overflow-hidden border-t border-border">
+    <section className="relative py-20 md:py-32 bg-white overflow-hidden border-t border-border" id="methodology">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <motion.div

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import { Globe } from "lucide-react";
 import { locales, localeFlags, localeNames, type Locale } from "@/i18n";
@@ -9,7 +9,6 @@ import { locales, localeFlags, localeNames, type Locale } from "@/i18n";
 export default function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false);
   const locale = useLocale();
-  const router = useRouter();
   const pathname = usePathname();
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -32,29 +31,39 @@ export default function LanguageSelector() {
       return;
     }
 
-    // Extract the base path by removing ANY locale prefix
+    // Debug logging
+    console.log("Current locale:", locale);
+    console.log("Current pathname:", pathname);
+    console.log("New locale:", newLocale);
+
+    // Remove current locale prefix from pathname
     let basePath = pathname;
 
-    // Check all locales to find and remove any locale prefix
-    for (const loc of locales) {
-      const prefix = `/${loc}`;
-      if (pathname === prefix) {
-        // Pathname is exactly the locale prefix (e.g., "/fr")
+    // Check if pathname starts with current locale prefix and remove it
+    if (locale !== "en" && pathname.startsWith(`/${locale}`)) {
+      // Current locale has a prefix, remove it
+      if (pathname === `/${locale}`) {
         basePath = "/";
-        break;
-      } else if (pathname.startsWith(`${prefix}/`)) {
-        // Pathname starts with locale prefix (e.g., "/fr/blog")
-        basePath = pathname.slice(prefix.length);
-        break;
+      } else if (pathname.startsWith(`/${locale}/`)) {
+        basePath = pathname.slice(`/${locale}`.length);
       }
     }
 
-    // Construct the full path with the new locale prefix
-    // English (default locale) doesn't need a prefix
-    const fullPath = newLocale === "en" ? basePath : `/${newLocale}${basePath}`;
+    // Construct new path with new locale prefix
+    let newPath: string;
+    if (newLocale === "en") {
+      // English is default - no prefix
+      newPath = basePath;
+    } else {
+      // Add prefix for other locales
+      newPath = `/${newLocale}${basePath}`;
+    }
 
-    // Push to the full path with locale prefix
-    router.push(fullPath);
+    console.log("Base path:", basePath);
+    console.log("New path:", newPath);
+
+    // Navigate to new path
+    window.location.href = newPath;
   };
 
   return (

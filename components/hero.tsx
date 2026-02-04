@@ -3,13 +3,12 @@
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
-import { ChevronDown } from "lucide-react";
 import { fadeInUp, staggerContainer } from "@/lib/animations";
 import AnimatedGrid from "@/components/animated-grid";
 
 export default function Hero() {
   const t = useTranslations();
-  const locale = useLocale();
+  useLocale(); // Get current locale for context
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
@@ -43,21 +42,13 @@ export default function Hero() {
           custom={2}
         >
           <Link
-            href={`/${locale}/contact`}
+            href={`#methodology`}
             className="px-8 py-4 bg-accent text-white rounded-lg font-semibold hover:bg-accent/90 transition-colors"
           >
             {t("hero.getStarted")}
           </Link>
         </motion.div>
 
-        {/* Scroll indicator */}
-        <motion.div
-          className="absolute bottom-1 left-1/2 -translate-x-1/2"
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity }}
-        >
-          <ChevronDown className="text-accent" size={24} />
-        </motion.div>
       </motion.div>
     </section>
   );

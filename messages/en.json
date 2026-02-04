@@ -3,11 +3,11 @@
     "home": "Home",
     "blog": "Blog",
     "contact": "Contact",
-    "getStarted": "Get Started"
+    "getStarted": "See how"
   },
   "hero": {
     "title": "Transform Your Business with",
-    "titleAccent": "AI & Data",
+    "titleAccent": "AI & Youe Data",
     "description": "Expert consulting for data engineering, machine learning, and cloud infrastructure. We help enterprises unlock the power of their data.",
     "getStarted": "Get Started"
   },
@@ -17,7 +17,7 @@
     "keyDeliverables": "Key Deliverables",
     "phases": {
       "01": {
-        "title": "The Blueprint & Audit",
+        "title": "Actionnable Audit",
         "subtitle": "De-Risking the Innovation",
         "description": "Before we write a single line of code, we validate the ecosystem. We assess your data readiness, security governance, and cloud foundations."
       },
@@ -56,17 +56,17 @@
     "description": "A layered architecture designed for production AI at enterprise scale. Each layer is independently scalable, replaceable, and optimized for specific responsibilities.",
     "items": {
       "1": {
-        "layer": "Application Layer",
+        "layer": "Application",
         "title": "User-Facing Intelligence",
         "description": "Next.js frontend, FastAPI backend, and Arize AI observability create a seamless interface for enterprise-grade AI applications."
       },
       "2": {
-        "layer": "Context Layer",
-        "title": "Corporate Memory & Grounding",
+        "layer": "Context",
+        "title": "Memory & Grounding",
         "description": "Semantic Kernel orchestration, Azure AI Search for vector retrieval, and Databricks Unity Catalog for governance ensure your AI stays grounded in organizational data."
       },
       "3": {
-        "layer": "Intelligence Layer",
+        "layer": "Intelligence",
         "title": "Reasoning Engines",
         "description": "Azure OpenAI GPT-4o, Mistral AI for sovereign models, and LiteLLM for model routing provide decoupled, swappable reasoning capabilities."
       },

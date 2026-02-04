@@ -14,8 +14,8 @@ export async function generateMetadata({
 
   const title =
     locale === "fr"
-      ? "Valuraise - Transformez Votre Entreprise avec l'IA et les Données"
-      : "Valuraise - Transform Your Business with AI & Data Consulting";
+      ? "Valuraise - Transformez Votre Entreprise avec l'IA et Vos Données"
+      : "Valuraise - Transform Your Business with AI & Your Data Consulting";
 
   const description =
     locale === "fr"

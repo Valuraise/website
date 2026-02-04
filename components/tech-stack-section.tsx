@@ -7,11 +7,12 @@ import { fadeInUp, staggerContainer } from "@/lib/animations";
 export default function TechStackSection() {
   const t = useTranslations();
 
-  const stackItems = [1, 2, 3, 4].map((id) => ({
+  const stackItems = [4, 3, 2, 1].map((id) => ({
     id,
     layer: t(`techStack.items.${id}.layer`),
     title: t(`techStack.items.${id}.title`),
     description: t(`techStack.items.${id}.description`),
+    highlighted: id == 3
   }));
 
   return (
@@ -70,7 +71,7 @@ export default function TechStackSection() {
                 <div className="absolute inset-0 border border-border rounded-lg transform translate-y-0.5 translate-x-0.5 opacity-50 group-hover:opacity-30 transition-opacity" />
 
                 {/* Card */}
-                <div className="relative p-6 md:p-8 border border-border rounded-lg bg-white backdrop-blur-sm hover:shadow-lg transition-all duration-300 group-hover:-translate-y-1 group-hover:-translate-x-1">
+                <div className={`relative p-6 md:p-8 border border-border rounded-lg backdrop-blur-sm hover:shadow-lg transition-all duration-300 group-hover:-translate-y-1 group-hover:-translate-x-1 ${item.highlighted ? "bg-red/5" : "bg-white"}`}>
                   <div className="flex items-start gap-3 md:gap-4 mb-4">
                     <div className="flex-shrink-0 mt-1">
                       <div className="w-6 h-6 rounded border border-accent/30 flex items-center justify-center text-xs font-semibold text-accent">

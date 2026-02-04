@@ -1,138 +1,135 @@
 {
   "navigation": {
     "home": "Accueil",
-    "blog": "Blog",
+    "blog": "Insights",
     "contact": "Contact",
-    "getStarted": "Commencer"
+    "getStarted": "Etes vous prêt pour l'IA ?"
   },
   "hero": {
-    "title": "Transformez Votre Entreprise avec",
-    "titleAccent": "l'IA et les Données",
-    "description": "Conseil expert en ingénierie des données, apprentissage automatique et infrastructure cloud. Nous aidons les entreprises à exploiter la puissance de leurs données.",
-    "getStarted": "Commencer"
+    "title": "Ne faites plus de PoCs.",
+    "titleAccent": "Bâtissez des Actifs IA.",
+    "description": "Nous déployons des 'Squads Produits' seniors au cœur de votre entreprise. Notre mission : transformer vos données en produits IA industriels",
+    "getStarted": "Découvrir la méthode"
   },
   "methodology": {
-    "title": "De la Stratégie à l'Échelle en Quelques Semaines",
-    "description": "Nous ne vendons pas du conseil sans fin. Nous déployons un protocole de construction de ventures conçu pour vous faire passer d'une idée brute à un actif IA de qualité production. Rapide, sécurisé et souverain.",
-    "keyDeliverables": "Livrables Clés",
+    "title": "Nous operons en mode startup",
+    "description": "Nous appliquons un protocole de 'Venture Building' pour réduire les risques et garantir le passage en production. De la stratégie à l'échelle, sans friction.",
+    "keyDeliverables": "Livrables Stratégiques",
     "phases": {
       "01": {
-        "title": "Le Blueprint et l'Audit",
-        "subtitle": "Réduire les Risques de l'Innovation",
-        "description": "Avant d'écrire une seule ligne de code, nous validons l'écosystème. Nous évaluons votre maturité données, votre gouvernance de sécurité et vos fondations cloud."
+        "title": "Audit & Blueprint",
+        "subtitle": "Dé-risquer l'Innovation",
+        "description": "Avant le code, la fondation. Nous auditons votre maturité Data, validons la conformité (AI Act) et dessinons l'architecture cible sur votre Cloud souverain."
       },
       "02": {
         "title": "Le Sprint MVP",
-        "subtitle": "Le Moteur de Démarrage",
-        "description": "Nous activons le mode startup avec des itérations rapides, des démos hebdomadaires et un focus sur la valeur métier. Construire un MVP fonctionnel et sécurisé sur votre tenant."
+        "subtitle": "Mode Startup Activé",
+        "description": "Itérations rapides et code de qualité production. Nous construisons le produit sur votre tenant Azure/Cloud avec un focus obsessionnel sur le ROI métier."
       },
       "03": {
         "title": "Industrialisation",
-        "subtitle": "Du Laboratoire à l'Usine",
-        "description": "Un PoC n'est pas un produit. Nous durcissons le système pour l'échelle : pipelines MLOps, CI/CD automatisé, observabilité et transfert de compétences."
+        "subtitle": "Passage à l'Échelle",
+        "description": "Passage de relai. Nous durcissons la sécurité, automatisons les pipelines MLOps et formons vos équipes pour qu'elles deviennent propriétaires de l'actif."
       }
     },
     "deliverables": {
       "01": [
-        "Rapport de Faisabilité Technique",
-        "Checklist Sécurité et Conformité",
-        "Design d'Architecture Solution"
+        "Architecture Cible & Stack",
+        "Matrice de Conformité & Sécurité"
       ],
       "02": [
-        "MVP Prêt pour la Production",
-        "Infrastructure-as-Code (Terraform)",
-        "Validation de Valeur Métier (Rapport ROI)"
+        "MVP Fonctionnel & Sécurisé",
+        "Code Infrastructure (Terraform)"
       ],
       "03": [
-        "Pipelines CI/CD Complets",
-        "Mise en place Monitoring MLOps",
-        "Formation d'Équipe et Passation"
+        "Pipelines MLOps & CI/CD",
+        "Transfert de Compétences & Formation"
       ]
     }
   },
   "techStack": {
-    "title": "Stack IA Entreprise",
-    "subtitle": "Prêt pour la Production",
-    "description": "Une architecture en couches conçue pour l'IA de production à l'échelle entreprise. Chaque couche est indépendamment scalable, remplaçable et optimisée pour des responsabilités spécifiques.",
+    "title": "La stack IA en Entreprise",
+    "subtitle": "Architecture Sécurisée & Scalable",
+    "description": "Nous déployons une architecture en couches, découplée et robuste, utilisant les standards de l'industrie.",
     "items": {
-      "1": {
-        "layer": "Couche Application",
-        "title": "Intelligence Orientée Utilisateur",
-        "description": "Next.js frontend, FastAPI backend et observabilité Arize AI créent une interface transparente pour les applications IA de qualité entreprise."
-      },
-      "2": {
-        "layer": "Couche Contexte",
-        "title": "Mémoire Corporative et Ancrage",
-        "description": "L'orchestration Semantic Kernel, la recherche vectorielle Azure AI Search et Databricks Unity Catalog pour la gouvernance garantissent que votre IA reste ancrée aux données organisationnelles."
+      "4": {
+        "layer": "Application",
+        "title": "L'Interface Utilisateur",
+        "description": "Des interfaces fluides (Next.js) et des APIs performantes (FastAPI) pour une adoption utilisateur immédiate, surveillées par Arize AI."
       },
       "3": {
-        "layer": "Couche Intelligence",
-        "title": "Moteurs de Raisonnement",
-        "description": "Azure OpenAI GPT-4o, Mistral AI pour les modèles souverains et LiteLLM pour le routage modèle offrent des capacités de raisonnement découplées et interchangeables."
+        "layer": "Contexte",
+        "title": "L'Ancrage",
+        "description": "C'est ici que vit la valeur. Nous utilisons Databricks Unity Catalog et Azure AI Search pour ancrer le modèle dans vos données d'entreprise sécurisées (RAG)."
       },
-      "4": {
+      "2": {
+        "layer": "Intelligence",
+        "title": "Le Cerveau",
+        "description": "Indépendance technologique totale. Nous orchestrons les meilleurs modèles (GPT-4o pour le raisonnement, Mistral Large pour la souveraineté) via des routeurs intelligents."
+      },
+      "1": {
         "layer": "Infrastructure",
-        "title": "Fondation Entreprise",
-        "description": "Azure Kubernetes Service, Terraform pour l'infrastructure-as-code et Azure Key Vault offrent une infrastructure sécurisée, scalable et souveraine."
+        "title": "La Fondation",
+        "description": "100% Infrastructure-as-Code (Terraform). Déploiement sur Azure Kubernetes Service (AKS) avec une sécurité militaire (Key Vault, Private Links)."
       }
     }
   },
   "cta": {
     "homeCTA": {
-      "headline": "Prêt à Transformer Votre Entreprise?",
-      "description": "Discutons de comment nous pouvons vous aider à exploiter les données et l'IA pour atteindre vos objectifs métier.",
-      "primaryText": "Planifier un appel",
+      "headline": "Sortez du 'Purgatoire des Pilotes'",
+      "description": "Vous avez les données. Vous avez l'ambition. Il vous manque la vélocité, discutons.",
+      "primaryText": "Planifier l'appel stratégique",
       "primaryHref": "/contact"
     }
   },
   "contact": {
     "page": {
-      "title": "Nous Contacter",
-      "description": "Vous avez un projet en tête? Discutons de comment nous pouvons vous aider à transformer votre entreprise avec l'IA, l'ingénierie des données et les solutions d'infrastructure cloud.",
-      "formTitle": "Envoyez-nous un Message",
-      "formSubtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les 24 heures."
+      "title": "Parlons Business & Tech",
+      "description": "Pas de commerciaux, vous parlez directement à des architectes seniors. Décrivez votre contexte, nous vous dirons si nous pouvons apporter de la valeur.",
+      "formTitle": "Demande de contact",
+      "formSubtitle": "Réponse garantie sous 24h par un associé."
     },
     "form": {
       "nameLabel": "Nom Complet",
-      "namePlaceholder": "Jean Dupont",
-      "emailLabel": "Adresse Email",
-      "emailPlaceholder": "jean@example.com",
-      "companyLabel": "Nom de l'Entreprise",
-      "companyPlaceholder": "Votre Entreprise",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Parlez-nous de votre projet et de vos défis...",
-      "submitButton": "Envoyer le Message",
-      "sendingButton": "Envoi...",
-      "privacyNote": "Nous respectons votre vie privée. Vos informations sont sécurisées et ne seront jamais partagées.",
-      "successMessage": "Message envoyé avec succès!",
-      "successSubMessage": "Nous vous recontacterons bientôt.",
+      "namePlaceholder": "Votre Nom",
+      "emailLabel": "Email Professionnel",
+      "emailPlaceholder": "vous@entreprise.com",
+      "companyLabel": "Entreprise",
+      "companyPlaceholder": "Nom de votre société",
+      "messageLabel": "Contexte du Projet",
+      "messagePlaceholder": "Dites-nous en plus sur vos défis (Data, Cloud, adoption IA)...",
+      "submitButton": "Envoyer la demande",
+      "sendingButton": "Envoi en cours...",
+      "privacyNote": "Confidentialité totale (NDA possible dès le premier échange).",
+      "successMessage": "Message reçu.",
+      "successSubMessage": "Un associé reviendra vers vous très rapidement.",
       "errorTitle": "Erreur",
       "validationErrors": {
-        "nameRequired": "Le nom doit contenir au moins 2 caractères",
-        "emailInvalid": "Adresse email invalide",
-        "companyRequired": "Le nom de l'entreprise est requis",
-        "messageMinLength": "Le message doit contenir au moins 10 caractères",
-        "serviceRequired": "Veuillez sélectionner un service"
+        "nameRequired": "Votre nom est requis",
+        "emailInvalid": "Email professionnel invalide",
+        "companyRequired": "L'entreprise est requise",
+        "messageMinLength": "Merci de détailler un minimum le contexte",
+        "serviceRequired": "Sélectionnez un sujet"
       }
     }
   },
   "blog": {
     "page": {
-      "title": "Notre Blog",
-      "description": "Conseils et bonnes pratiques sur l'IA, l'ingénierie des données, l'infrastructure cloud et la transformation numérique.",
-      "noPosts": "Aucun article trouvé."
+      "title": "Insights & Architecture",
+      "description": "Retours d'expérience terrain : Architecture, MLOps, Gouvernance et Stratégie IA.",
+      "noPosts": "Chargement des articles..."
     },
     "card": {
       "readingTime": "min de lecture"
     }
   },
   "footer": {
-    "tagline": "Transformer les entreprises par l'expertise en données et IA.",
-    "resources": "Ressources",
-    "social": "Réseaux Sociaux",
-    "blog": "Blog",
-    "linkedin": "Linkedin",
-    "github": "Github",
-    "copyright": "© {year} Valuraise. Tous droits réservés."
+    "tagline": "Le partenaire 'Venture Builder' pour l'IA en entreprise.",
+    "resources": "Expertise",
+    "social": "Réseaux",
+    "blog": "Insights",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "copyright": "© {year} Votre Agence. Architecture Data & IA."
   }
 }
