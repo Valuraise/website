@@ -48,8 +48,15 @@ export async function generateMetadata({
         ? ["conseil", "IA", "apprentissage automatique", "ingénierie des données", "infrastructure cloud", "développement logiciel", "Valuraise"]
         : ["consulting", "AI", "machine learning", "data engineering", "cloud infrastructure", "software development", "Valuraise"],
     icons: {
-      icon: "/favicon.svg",
-      apple: "/apple-touch-icon.svg",
+      icon: {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+      apple: {
+        url: "/apple-touch-icon.svg",
+        type: "image/svg+xml",
+        sizes: "180x180",
+      },
     },
     openGraph: {
       type: "website",
